@@ -1,1 +1,1 @@
-for i in `ls -d RUN*/`; do printf  'python pearson_cc.py $i 100 5000 \n'; done >do_pearson.txt
+for i in `/bin/ls -d RUN*/`; do echo  python pearson_cc.py $i 100 5000; done >do_pearson.txt
